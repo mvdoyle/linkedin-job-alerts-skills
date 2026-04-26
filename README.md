@@ -64,3 +64,9 @@ To change the local market, edit `linkedin-local-dotnet-search/SKILL.md`:
 - optional `distance`
 
 LinkedIn `geoId` is authoritative. Avoid relying only on the visible location text field.
+
+## Reviewing Your Alerts
+
+You can see every alert currently set on your LinkedIn profile at [linkedin.com/jobs/jam](https://www.linkedin.com/jobs/jam/). The **Manage job alerts** dialog lists each saved search with its location, filters, and email/notification frequency, and lets you edit or delete them. Useful for confirming a skill set the alert you expected, or for cleaning up duplicates.
+
+![LinkedIn Manage job alerts dialog](images/manage-job-alerts.png)
