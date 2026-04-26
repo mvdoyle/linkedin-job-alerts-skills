@@ -19,7 +19,54 @@ https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn
 - Claude Code Chrome extension installed.
 - An authenticated LinkedIn session in the active Chrome profile.
 
-## Install
+## Install Claude Code
+
+Claude Code is the CLI that loads and runs these skills. If you don't have it yet:
+
+1. Install [Node.js 18+](https://nodejs.org/) (required for the npm install method).
+2. Install Claude Code globally:
+
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   ```
+
+3. Verify the install:
+
+   ```bash
+   claude --version
+   ```
+
+4. On first run, Claude Code will prompt you to authenticate with your Anthropic account.
+
+For alternative install methods (Homebrew, native installer, etc.) see the [official docs](https://docs.claude.com/en/docs/claude-code/quickstart).
+
+## Run Claude in This Repo
+
+Once Claude Code is installed and the skills are installed (see below):
+
+1. Open a terminal and `cd` into this repo:
+
+   ```bash
+   cd ~/repos/linkedin-job-alerts-skills
+   ```
+
+2. Start Claude Code:
+
+   ```bash
+   claude
+   ```
+
+3. From inside Claude, try one of the skills, for example:
+
+   ```
+   /linkedin-job-search-router run a full sweep
+   ```
+
+   Or just ask in plain English: *"find me remote C# internships posted in the last 24 hours"* — the router skill will pick the right search.
+
+To exit, type `/exit` or press `Ctrl+C` twice.
+
+## Install Skills
 
 From this package directory:
 
